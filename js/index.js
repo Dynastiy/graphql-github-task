@@ -54,7 +54,7 @@
             }`
           });
           
-          const token = "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"
+          const token = "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"
           const response = await fetch(
             'https://api.github.com/graphql',
             {
