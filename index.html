@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Github Graghql Task</title>
+</head>
+<body>
+    <main>
+        <!-- top navigation bar -->
+        <nav class="top-nav">
+            <!-- Left Side of the top navigation bar -->
+            <div class="togglerrr">
+                <i class="fa fa-bars fa-2x" id="menutog" aria-hidden="true"></i>
+            </div>
+            <a href=""><i class="fa fa-github logo fa-2x" aria-hidden="true"></i></a>
+            <div class="main-nav">
+                <div class="leftside-nav">
+                    <input type="text" placeholder="Search or Jump to..." class="searchinput">
+                    <a href="">Pull Requests</a>
+                    <a href="">Issues</a>
+                    <a href="">Codespaces</a>
+                    <a href="">Marketplace</a>
+                    <a href="">Explore</a>
+                </div>
+                <!-- Right Side of the top navigation bar  -->
+                <div class="rightside-nav">
+                    <a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+                    <div class="alert-icon"></div>
+                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-caret-down" aria-hidden="true"></i></a> 
+                    <a href=""> <img class="imgg" src="images/1.jpg" alt="" width="20" height="20" id="userImg"> <i class="fa fa-caret-down" aria-hidden="true"></i> </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navigation Bar for display on mobile screens  -->
+        <div class="mobile-display" id ="sidee">
+            <a href="">Pull Requests</a>
+            <a href="">Issues</a>
+            <a href="">Codespaces</a>
+            <a href="">Marketplace</a>
+            <a href="">Explore</a>
+            <a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+            <div class="input-search"> 
+                <input type="text" placeholder="Search or Jump to..." class="searchinput">
+            </div>
+        </div>
+
+        
+        <div class="hr2"></div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <div class="left-content">
+                <div class="left-content-img">
+                    <img class="imgg" src="images/1.jpg" alt="" width="250" height="250" id="userImg2">
+                    <div class="smille"> <i class="fa fa-smile-o" aria-hidden="true"></i> </div>
+                </div>
+                <h2 id="name"> Name</h2>
+                <p id="bio">Frontend Developer and User Interface Engineer</p>
+            </div>
+
+            <div class="right-content">
+                <div class="right-nav">
+                    <a href=""> <span class="iconify" data-icon="akar-icons:book" data-inline="true"></span> Overview</a>
+                    <a href=""> <span class="iconify" data-icon="octicon:repo-16" data-inline="true"></span> Repositories</a>
+                    <a href=""> <span class="iconify" data-icon="ant-design:project-outlined" data-inline="true"></span> Projects</a>
+                    <a href=""> <span class="iconify" data-icon="octicon:package-16" data-inline="true"></span> Packages</a>
+                </div>
+                <input type="text" placeholder="Find a Repository" class="repoSearch">
+
+                <div class="right-area right-main" id="right-main">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <section class="enterUser" id="user">
+
+        <div class="error-no-user" id="error-no-user">
+            <p>User Not Found</p>
+        </div>
+
+        <div class="enter-user" id="enter-user">
+            <p>Please Enter a User name</p>
+        </div>
+        <div>
+            <i class="fa fa-github fa-4x  logo" aria-hidden="true"></i>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Enter Github Username" id="input" class="inputUser" required>
+        </div>
+        <div>
+            <button class="btnUser"  onclick="getUser()">View Repositories </button>    
+        </div>
+
+        
+    </section>
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
