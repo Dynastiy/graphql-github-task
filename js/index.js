@@ -54,7 +54,7 @@
             }`
           });
           
-        
+          // const token = "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"
           const response = await fetch(
             'https://api.github.com/graphql',
             {
@@ -64,7 +64,7 @@
                 'Content-Type': 'application/json',
                 'Content-Length': data.length,
                 Authorization:
-                   'Bearer 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',
+                   'Bearer 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',
               },
             }
             
